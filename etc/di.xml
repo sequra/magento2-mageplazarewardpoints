@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Sequra\Core\Model\Api\Builder\Order" type="Sequra\MageplazaRewardpoints\Model\Api\Builder\Order" />
+    <preference for="Sequra\Core\Model\Api\Builder\Report" type="Sequra\MageplazaRewardpoints\Model\Api\Builder\Report" />
+</config>

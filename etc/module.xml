@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author SeQura Tech
+ * @copyright Copyright (c) 2019 Amasty (https://www.amasty.com)
+ * @package Amasty_Rewards
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Sequra_MageplazaRewardpoints" setup_version="1.0.0">
+        <sequence>
+            <module name="Mageplaza_Rewardpoints"/>
+        </sequence>
+    </module>
+</config>
