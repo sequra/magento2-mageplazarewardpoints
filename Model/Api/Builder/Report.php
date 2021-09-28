@@ -12,7 +12,7 @@ class Report extends \Sequra\Core\Model\Api\Builder\Report
     {
         $items = parent::extraItems();
         //RewardPoints
-        $discount = round(-100 * $this->order->getMpRewardBaseDiscount());
+        $discount = round(-100 * $this->order->getMpRewardSpent());
         if ($discount < 0) {
             $items[] = [
                 'type' => 'other_payment',
